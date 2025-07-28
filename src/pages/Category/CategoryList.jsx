@@ -26,7 +26,7 @@ const CategoryList = () => {
               <div className="card-body text-center">
                 <div className="rounded bg-primary-subtle d-flex align-items-center justify-content-center mx-auto">
                   <img
-                    src="assets/images/product/p-6.png"
+                    src="/assets/images/product/p-6.png"
                     alt=""
                     className="avatar-xl"
                   />
@@ -41,7 +41,7 @@ const CategoryList = () => {
               <div className="card-body text-center">
                 <div className="rounded bg-warning-subtle d-flex align-items-center justify-content-center mx-auto">
                   <img
-                    src="assets/images/product/p-7.png"
+                    src="/assets/images/product/p-7.png"
                     alt=""
                     className="avatar-xl"
                   />
@@ -210,7 +210,7 @@ const CategoryList = () => {
                           <div className="d-flex align-items-center gap-2">
                             <div className="rounded bg-light avatar-md d-flex align-items-center justify-content-center">
                               <img
-                                src="assets/images/product/p-2.png"
+                                src="/assets/images/product/p-2.png"
                                 alt=""
                                 className="avatar-md"
                               />

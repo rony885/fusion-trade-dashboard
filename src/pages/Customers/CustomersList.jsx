@@ -189,7 +189,7 @@ const CustomersList = () => {
                         </td>
                         <td>
                           <img
-                            src="assets/images/users/avatar-2.jpg"
+                            src="/assets/images/users/avatar-2.jpg"
                             className="avatar-sm rounded-circle me-2"
                             alt="..."
                           />

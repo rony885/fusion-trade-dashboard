@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Accordion = () => {
   return (
@@ -11,15 +12,15 @@ const Accordion = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Basic Example{" "}
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Using the card component, you can extend the default collapse
                   behavior to create an accordion. To properly achieve the
                   accordion style, be sure to use
-                  <code>.accordion</code> as a wrapper.
+                  <code>.accordion</code> as Link wrapper.
                 </p>
 
                 <div className="mb-3">
@@ -236,9 +237,9 @@ const Accordion = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="flush">
                   Flush Accordion{" "}
-                  <a className="anchor-link" href="#flush">
+                  <Link className="anchor-link" to="#flush">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Add <code>.accordion-flush</code> to remove the default
@@ -332,8 +333,8 @@ const Accordion = () => {
                           <code>.accordion-flush</code> class. This is the third
                           item's accordion body. Nothing more exciting happening
                           here in terms of content, but just filling up the
-                          space to make it look, at least at first glance, a bit
-                          more representative of how this would look in a
+                          space to make it look, at least at first glance, Link
+                          bit more representative of how this would look in Link
                           real-world application.
                         </div>
                       </div>
@@ -420,9 +421,9 @@ const Accordion = () => {
                         &lt;code&gt;.accordion-flush&lt;/code&gt; class. This is
                         the third item's accordion body. Nothing more exciting
                         happening here in terms of content, but just filling up
-                        the space to make it look, at least at first glance, a
-                        bit more representative of how this would look in a
-                        real-world application. &lt;/div&gt; &lt;/div&gt;
+                        the space to make it look, at least at first glance,
+                        Link bit more representative of how this would look in
+                        Link real-world application. &lt;/div&gt; &lt;/div&gt;
                         &lt;/div&gt; &lt;/div&gt;
                       </code>
                     </pre>
@@ -435,9 +436,9 @@ const Accordion = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="always-open">
                   Always Open Accordion
-                  <a className="anchor-link" href="#always-open">
+                  <Link className="anchor-link" to="#always-open">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Omit the <code>data-bs-parent</code> attribute on each
@@ -666,19 +667,19 @@ const Accordion = () => {
             <div className="card docs-nav">
               <ul className="nav bg-transparent flex-column">
                 <li className="nav-item">
-                  <a href="#default" className="nav-link">
+                  <Link to="#default" className="nav-link">
                     Default Example
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#flush" className="nav-link">
+                  <Link to="#flush" className="nav-link">
                     Flush Accordian
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#always-open" className="nav-link">
+                  <Link to="#always-open" className="nav-link">
                     Always Open
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

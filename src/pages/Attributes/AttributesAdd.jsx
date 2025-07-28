@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const AttributesAdd = () => {
   return (
@@ -89,9 +90,9 @@ const AttributesAdd = () => {
                 </div>
               </div>
               <div className="card-footer border-top">
-                <a href="#!" className="btn btn-primary">
+                <Link to="#!" className="btn btn-primary">
                   Save Change
-                </a>
+                </Link>
               </div>
             </div>
           </div>

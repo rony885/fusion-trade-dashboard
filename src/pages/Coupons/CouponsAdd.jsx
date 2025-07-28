@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const CouponsAdd = () => {
   return (
@@ -74,7 +75,10 @@ const CouponsAdd = () => {
               <div className="card-body">
                 <form>
                   <div className="mb-3">
-                    <label htmlFor="start-date" className="form-label text-dark">
+                    <label
+                      htmlFor="start-date"
+                      className="form-label text-dark"
+                    >
                       Start Date
                     </label>
                     <input
@@ -127,7 +131,10 @@ const CouponsAdd = () => {
                   </div>
                   <div className="col-lg-6">
                     <form>
-                      <label htmlFor="product-categories" className="form-label">
+                      <label
+                        htmlFor="product-categories"
+                        className="form-label"
+                      >
                         Discount Products
                       </label>
                       <select
@@ -272,9 +279,9 @@ const CouponsAdd = () => {
                 </div>
               </div>
               <div className="card-footer border-top">
-                <a href="#!" className="btn btn-primary">
+                <Link to="#!" className="btn btn-primary">
                   Create Coupon
-                </a>
+                </Link>
               </div>
             </div>
           </div>

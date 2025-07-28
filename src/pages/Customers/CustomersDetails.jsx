@@ -12,7 +12,7 @@ const CustomersDetails = () => {
               <div className="card-body">
                 <div className="bg-primary profile-bg rounded-top p-5 position-relative mx-n3 mt-n3">
                   <img
-                    src="assets/images/users/avatar-2.jpg"
+                    src="/assets/images/users/avatar-2.jpg"
                     alt=""
                     className="avatar-lg border border-light border-3 rounded-circle position-absolute top-100 start-0 translate-middle ms-5"
                   />

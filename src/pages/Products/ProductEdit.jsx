@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const ProductEdit = () => {
   return (
@@ -10,7 +11,7 @@ const ProductEdit = () => {
             <div className="card">
               <div className="card-body">
                 <img
-                  src="assets/images/product/p-1.png"
+                  src="/assets/images/product/p-1.png"
                   alt=""
                   className="img-fluid rounded bg-light"
                 />
@@ -627,14 +628,14 @@ const ProductEdit = () => {
             <div className="p-3 bg-light mb-3 rounded">
               <div className="row justify-content-end g-2">
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-outline-secondary w-100">
+                  <Link to="#!" className="btn btn-outline-secondary w-100">
                     Reset
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-primary w-100">
+                  <Link to="#!" className="btn btn-primary w-100">
                     Save
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

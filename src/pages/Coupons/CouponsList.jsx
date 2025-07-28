@@ -207,7 +207,7 @@ const CouponsList = () => {
                           <div className="d-flex align-items-center gap-2">
                             <div className="rounded bg-light avatar-md d-flex align-items-center justify-content-center">
                               <img
-                                src="assets/images/product/p-1.png"
+                                src="/assets/images/product/p-1.png"
                                 alt=""
                                 className="avatar-md"
                               />

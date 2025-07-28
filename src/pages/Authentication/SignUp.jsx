@@ -13,7 +13,7 @@ const SignUp = () => {
                   <div className="auth-logo mb-4">
                     <Link to="/" className="logo-dark">
                       <img
-                        src="assets/images/logo-dark.png"
+                        src="/assets/images/logo-dark.png"
                         height="24"
                         alt="logo dark"
                       />
@@ -21,7 +21,7 @@ const SignUp = () => {
 
                     <Link to="/" className="logo-light">
                       <img
-                        src="assets/images/logo-light.png"
+                        src="/assets/images/logo-light.png"
                         height="24"
                         alt="logo light"
                       />
@@ -117,7 +117,7 @@ const SignUp = () => {
                   <p className="mt-auto text-danger text-center">
                     I already have an account
                     <Link
-                      to="auth-signin.html"
+                      to="/auth-signin"
                       className="text-dark fw-bold ms-1"
                     >
                       Sign In
@@ -132,7 +132,7 @@ const SignUp = () => {
             <div className="card h-100 mb-0 overflow-hidden">
               <div className="d-flex flex-column h-100">
                 <img
-                  src="assets/images/small/img-10.jpg"
+                  src="/assets/images/small/img-10.jpg"
                   alt=""
                   className="w-100 h-100"
                 />

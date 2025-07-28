@@ -1,54 +1,9 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const AddCategory = () => {
-  // const [previews, setPreviews] = useState([]);
-
-  // const handleFileChange = (e) => {
-  //   const newFiles = Array.from(e.target.files);
-  //   const newPreviews = newFiles.map((file) => ({
-  //     id: Date.now() + Math.random(), // Unique ID for deletion
-  //     name: file.name,
-  //     url: URL.createObjectURL(file),
-  //   }));
-
-  //   setPreviews((prev) => [...prev, ...newPreviews]);
-  // };
-
-  // const handleDelete = (id) => {
-  //   setPreviews((prev) => prev.filter((img) => img.id !== id));
-  // };
-
-  // const [previews, setPreviews] = useState([]);
-  // const MAX_IMAGES = 5;
-
-  // const handleFileChange = (e) => {
-  //   const selectedFiles = Array.from(e.target.files);
-
-  //   const remainingSlots = MAX_IMAGES - previews.length;
-  //   if (remainingSlots <= 0) return;
-
-  //   // ✅ Only take the first N files up to the limit
-  //   const limitedFiles = selectedFiles.slice(0, remainingSlots);
-  //   //  const limitedFiles = selectedFiles.reverse().slice(0, remainingSlots);
-
-  //   const newPreviews = limitedFiles.map((file, index) => ({
-  //     id: `${file.name}-${Date.now()}-${index}`,
-  //     name: file.name,
-  //     url: URL.createObjectURL(file),
-  //   }));
-
-  //   setPreviews((prev) => [...prev, ...newPreviews]);
-
-  //   // Clear input so user can select the same file again if needed
-  //   e.target.value = null;
-  // };
-
-  // const handleDelete = (id) => {
-  //   setPreviews((prev) => prev.filter((img) => img.id !== id));
-  // };
-
   const [previews, setPreviews] = useState([]);
   const MAX_IMAGES = 5;
   const fileInputRef = useRef(null);
@@ -92,7 +47,7 @@ const AddCategory = () => {
                 <div className="card-body">
                   <div className="bg-light text-center rounded bg-light">
                     <img
-                      src="assets/images/product/p-1.png"
+                      src="/assets/images/product/p-1.png"
                       alt=""
                       className="avatar-xxl"
                     />
@@ -118,14 +73,14 @@ const AddCategory = () => {
                 <div className="card-footer border-top">
                   <div className="row g-2">
                     <div className="col-lg-6">
-                      <a href="#!" className="btn btn-outline-secondary w-100">
+                      <Link to="#!" className="btn btn-outline-secondary w-100">
                         Create Category
-                      </a>
+                      </Link>
                     </div>
                     <div className="col-lg-6">
-                      <a href="#!" className="btn btn-primary w-100">
+                      <Link to="#!" className="btn btn-primary w-100">
                         Cancel
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -137,192 +92,6 @@ const AddCategory = () => {
                 <div className="card-header">
                   <h4 className="card-title">Add Thumbnail Photo</h4>
                 </div>
-
-                {/* <div className="card-body">
-                <form
-                  className="dropzone"
-                  id="myAwesomeDropzone"
-                  data-plugin="dropzone"
-                  data-previews-container="#file-previews"
-                  data-upload-preview-template="#uploadPreviewTemplate"
-                >
-                  <div className="fallback">
-                    <input name="file" type="file" multiple />
-                  </div>
-                  <div className="dz-message needsclick">
-                    <i className="bx bx-cloud-upload fs-48 text-primary"></i>
-                    <h3 className="mt-4">
-                      Drop your images here, or
-                      <span className="text-primary">click to browse</span>
-                    </h3>
-                    <span className="text-muted fs-13">
-                      1600 x 1200 (4:3) recommended. PNG, JPG and GIF files are
-                      allowed
-                    </span>
-                  </div>
-                </form>
-              </div> */}
-
-                {/* <div className="card-body">
-                  <form
-                    className="dropzone"
-                    id="myAwesomeDropzone"
-                    encType="multipart/form-data"
-                  >
-                    <div className="fallback">
-                      <input
-                        name="file"
-                        type="file"
-                        multiple
-                        onChange={handleFileChange}
-                        accept="image/png, image/jpeg, image/gif"
-                      />
-                    </div>
-
-                    <div className="dz-message needsclick text-center">
-                      <i className="bx bx-cloud-upload fs-48 text-primary"></i>
-                      <h3 className="mt-4">
-                        Drop your images here, or{" "}
-                        <span className="text-primary">click to browse</span>
-                      </h3>
-                      <span className="text-muted fs-13">
-                        1600 x 1200 (4:3) recommended. PNG, JPG and GIF files
-                        are allowed
-                      </span>
-                    </div>
-
-                    {previews.length > 0 && (
-                      <div className="row mt-4" id="file-previews">
-                        {previews.map((img) => (
-                          <div className="col-md-3 mb-3" key={img.id}>
-                            <div className="border rounded p-2 position-relative">
-                              <img
-                                src={img.url}
-                                alt={img.name}
-                                className="img-fluid"
-                                style={{
-                                  height: "120px",
-                                  objectFit: "cover",
-                                  width: "100%",
-                                  borderRadius: "5px",
-                                }}
-                              />
-
-                              <button
-                                type="button"
-                                onClick={() => handleDelete(img.id)}
-                                className="position-absolute"
-                                style={{
-                                  top: "45%",
-                                  left: "50%",
-                                  transform: "translate(-50%, -50%)",
-                                  fontSize: "30px",
-                                  width: "40px",
-                                  height: "40px",
-                                  borderRadius: "50%",
-                                  backgroundColor: "#5d71869b",
-                                  color: "#fff",
-                                  border: "none",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                  padding: 0,
-                                  cursor: "pointer",
-                                }}
-                                title="Remove image"
-                              >
-                                &times;
-                              </button>
-
-                              <p className="mt-2 mb-0 text-center small">
-                                {img.name}
-                              </p>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </form>
-                </div> */}
-                {/* 
-                <div className="card-body">
-                  <form className="dropzone" encType="multipart/form-data">
-                    <div className="fallback">
-                      <input
-                        name="file"
-                        type="file"
-                        multiple
-                        onChange={handleFileChange}
-                        accept="image/png, image/jpeg, image/gif"
-                        disabled={previews.length >= MAX_IMAGES}
-                      />
-                    </div>
-
-                    <div className="dz-message needsclick text-center">
-                      <i className="bx bx-cloud-upload fs-48 text-primary"></i>
-                      <h3 className="mt-4">
-                        Drop your images here, or{" "}
-                        <span className="text-primary">click to browse</span>
-                      </h3>
-                      <span className="text-muted fs-13">
-                        1600 x 1200 (4:3) recommended. PNG, JPG and GIF files
-                        are allowed.
-                        <br />
-                        You can upload up to 5 images.
-                      </span>
-                    </div>
-
-                    {previews.length > 0 && (
-                      <div className="row mt-4" id="file-previews">
-                        {previews.map((img) => (
-                          <div className="col-md-3 mb-3" key={img.id}>
-                            <div className="border rounded p-2 position-relative">
-                              <img
-                                src={img.url}
-                                alt={img.name}
-                                className="img-fluid"
-                                style={{
-                                  height: "120px",
-                                  objectFit: "cover",
-                                  width: "100%",
-                                  borderRadius: "5px",
-                                }}
-                              />
-                              <button
-                                type="button"
-                                onClick={() => handleDelete(img.id)}
-                                className="position-absolute"
-                                style={{
-                                  top: "45%",
-                                  left: "50%",
-                                  transform: "translate(-50%, -50%)",
-                                  fontSize: "30px",
-                                  width: "40px",
-                                  height: "40px",
-                                  borderRadius: "50%",
-                                  backgroundColor: "#5d71869b",
-                                  color: "#fff",
-                                  border: "none",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                  padding: 0,
-                                  cursor: "pointer",
-                                }}
-                                title="Remove image"
-                              >
-                                &times;
-                              </button>
-                              <p className="mt-2 mb-0 text-center small">
-                                {img.name}
-                              </p>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </form>
-                </div> */}
 
                 <div className="card-body">
                   <form className="dropzone" encType="multipart/form-data">
@@ -562,14 +331,14 @@ const AddCategory = () => {
               <div className="p-3 bg-light mb-3 rounded">
                 <div className="row justify-content-end g-2">
                   <div className="col-lg-2">
-                    <a href="#!" className="btn btn-outline-secondary w-100">
+                    <Link to="#!" className="btn btn-outline-secondary w-100">
                       Save Change
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="#!" className="btn btn-primary w-100">
+                    <Link to="#!" className="btn btn-primary w-100">
                       Cancel
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-/* eslint-disable no-script-url */
+
 
 import React from "react";
 import Footer from "../../components/Footer";
@@ -354,13 +354,13 @@ const InvoiceDetails = () => {
                 <div className="mt-3 mb-1">
                   <div className="text-end d-print-none">
                     <Link
-                      to="javascript:window.print()"
+                      to="#"
                       className="btn btn-info width-xl"
                     >
                       Print
                     </Link>
                     <Link
-                      to="javascript:void(0);"
+                      to="#"
                       className="btn btn-outline-primary width-xl"
                     >
                       Submit

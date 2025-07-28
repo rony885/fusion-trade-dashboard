@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   return (
@@ -11,9 +12,9 @@ const Carousel = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="slides-only">
                   Slides Only
-                  <a className="anchor-link" href="#slides-only">
+                  <Link className="anchor-link" to="#slides-only">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Here’s a carousel with slides only. Note the presence of the

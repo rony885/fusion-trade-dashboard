@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Buttons = () => {
   return (
@@ -14,12 +13,12 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Default Buttons
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use the button classes on an <code>&lt;a&gt;</code>,
+                  Use the button classes on an <code>&lt;Link&gt;</code>,
                   <code>&lt;button&gt;</code> or
                   <code>&lt;input&gt;</code> element.
                 </p>
@@ -115,9 +114,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="rounded">
                   Rounded Buttons
-                  <a className="anchor-link" href="#rounded">
+                  <Link className="anchor-link" to="#rounded">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Add <code>.rounded-pill</code> to default button to get
@@ -240,13 +239,13 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="outline">
                   Outline Buttons
-                  <a className="anchor-link" href="#outline">
+                  <Link className="anchor-link" to="#outline">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use a classes <code>.btn-outline-**</code> to quickly create a
-                  bordered buttons.
+                  Use Link classes <code>.btn-outline-**</code> to quickly
+                  create Link bordered buttons.
                 </p>
                 <div className="mb-3">
                   <div className="button-list">
@@ -320,13 +319,13 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="outline-rounded">
                   Outline Rounded Buttons
-                  <a className="anchor-link" href="#outline-rounded">
+                  <Link className="anchor-link" to="#outline-rounded">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use a classes <code>.btn-outline-**</code> to quickly create a
-                  bordered buttons.
+                  Use Link classes <code>.btn-outline-**</code> to quickly
+                  create Link bordered buttons.
                 </p>
                 <div className="mb-3">
                   <div className="button-list">
@@ -405,12 +404,12 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="soft">
                   Soft Buttons{" "}
-                  <a className="anchor-link" href="#soft">
+                  <Link className="anchor-link" to="#soft">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use a classes <code>.btn-soft-**</code> to quickly create
+                  Use Link classes <code>.btn-soft-**</code> to quickly create
                   buttons with soft background.
                 </p>
                 <div className="mb-3">
@@ -470,13 +469,13 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="soft-rounded">
                   Soft Rounded Buttons
-                  <a className="anchor-link" href="#soft-rounded">
+                  <Link className="anchor-link" to="#soft-rounded">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use a classes <code>.rounded-pill**</code> with
-                  <code>.btn-soft-**</code> to quickly create a Outline Soft
+                  Use Link classes <code>.rounded-pill**</code> with
+                  <code>.btn-soft-**</code> to quickly create Link Outline Soft
                   buttons.
                 </p>
                 <div className="mb-3">
@@ -554,9 +553,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="width">
                   Button Width{" "}
-                  <a className="anchor-link" href="#width">
+                  <Link className="anchor-link" to="#width">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Create buttons with minimum width by adding add
@@ -623,9 +622,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="sizes">
                   Button Sizes{" "}
-                  <a className="anchor-link" href="#sizes">
+                  <Link className="anchor-link" to="#sizes">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Add <code>.btn-lg</code>, <code>.btn-sm</code> for additional
@@ -678,9 +677,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="disabled">
                   Disabled Button
-                  <a className="anchor-link" href="#disabled">
+                  <Link className="anchor-link" to="#disabled">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Add <code>disabled</code> attribute to buttons.
@@ -746,9 +745,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="icon">
                   Icon Button{" "}
-                  <a className="anchor-link" href="#icon">
+                  <Link className="anchor-link" to="#icon">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">Icon only Button.</p>
                 <div className="mb-3">
@@ -814,12 +813,12 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="group">
                   Button Group{" "}
-                  <a className="anchor-link" href="#group">
+                  <Link className="anchor-link" to="#group">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Wrap a series of buttons with <code>.btn</code> in
+                  Wrap Link series of buttons with <code>.btn</code> in
                   <code>.btn-group</code>.
                 </p>
                 <div className="mb-3">
@@ -875,20 +874,14 @@ const Buttons = () => {
                           aria-labelledby="dropdown"
                         >
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -927,20 +920,14 @@ const Buttons = () => {
                           aria-labelledby="verticalDropdown"
                         >
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -991,13 +978,13 @@ const Buttons = () => {
                         aria-expanded=&quot;false&quot;&gt; Dropdown
                         &lt;/button&gt; &lt;ul className=&quot;dropdown-menu
                         dropdown-menu-end&quot;
-                        aria-labelledby=&quot;dropdown&quot;&gt; &lt;li&gt;&lt;a
+                        aria-labelledby=&quot;dropdown&quot;&gt;
+                        &lt;li&gt;&lt;Link className=&quot;dropdown-item&quot;
+                        to=&quot;#&quot;&gt;Dropdown
+                        link&lt;/Link&gt;&lt;/li&gt; &lt;li&gt;&lt;Link
                         className=&quot;dropdown-item&quot;
-                        href=&quot;javascript:void(0);&quot;&gt;Dropdown
-                        link&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a
-                        className=&quot;dropdown-item&quot;
-                        href=&quot;javascript:void(0);&quot;&gt;Dropdown
-                        link&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
+                        to=&quot;#&quot;&gt;Dropdown
+                        link&lt;/Link&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
                         &lt;!-- btn-group vertical --&gt; &lt;div
                         className=&quot;btn-group-vertical me-4&quot;&gt;
                         &lt;button type=&quot;button&quot; className=&quot;btn
@@ -1018,12 +1005,12 @@ const Buttons = () => {
                         &lt;/button&gt; &lt;ul className=&quot;dropdown-menu
                         dropdown-menu-end&quot;
                         aria-labelledby=&quot;verticalDropdown&quot;&gt;
-                        &lt;li&gt;&lt;a className=&quot;dropdown-item&quot;
-                        href=&quot;javascript:void(0);&quot;&gt;Dropdown
-                        link&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a
+                        &lt;li&gt;&lt;Link className=&quot;dropdown-item&quot;
+                        to=&quot;#&quot;&gt;Dropdown
+                        link&lt;/Link&gt;&lt;/li&gt; &lt;li&gt;&lt;Link
                         className=&quot;dropdown-item&quot;
-                        href=&quot;javascript:void(0);&quot;&gt;Dropdown
-                        link&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
+                        to=&quot;#&quot;&gt;Dropdown
+                        link&lt;/Link&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
                       </code>
                     </pre>
                   </div>
@@ -1037,9 +1024,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="block">
                   Block Button{" "}
-                  <a className="anchor-link" href="#block">
+                  <Link className="anchor-link" to="#block">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Create block level buttons by adding class
@@ -1098,64 +1085,64 @@ const Buttons = () => {
                 <div className="">
                   <ul className="nav bg-transparent flex-column">
                     <li className="nav-item">
-                      <a href="#default" className="nav-link">
+                      <Link to="#default" className="nav-link">
                         Default Example
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#rounded " className="nav-link">
+                      <Link to="#rounded " className="nav-link">
                         Rounded Buttons
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#outline" className="nav-link">
+                      <Link to="#outline" className="nav-link">
                         Outline Buttons
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#outline-rounded" className="nav-link">
+                      <Link to="#outline-rounded" className="nav-link">
                         Outline Rounded Buttons
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#soft" className="nav-link">
+                      <Link to="#soft" className="nav-link">
                         Soft Buttons{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#soft-rounded " className="nav-link">
+                      <Link to="#soft-rounded " className="nav-link">
                         Soft Rounded Buttons
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#width " className="nav-link">
+                      <Link to="#width " className="nav-link">
                         Button Width{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#sizes " className="nav-link">
+                      <Link to="#sizes " className="nav-link">
                         Button Sizes{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#disabled " className="nav-link">
+                      <Link to="#disabled " className="nav-link">
                         Disabled Button
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#icon " className="nav-link">
+                      <Link to="#icon " className="nav-link">
                         Icon Button{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#group " className="nav-link">
+                      <Link to="#group " className="nav-link">
                         Button Group{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#block" className="nav-link">
+                      <Link to="#block" className="nav-link">
                         Block Button{" "}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

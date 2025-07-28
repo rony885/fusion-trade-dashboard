@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -23,9 +22,9 @@ const Card = () => {
                   the bulk of the card's content. With supporting text below as
                   a natural lead-in to additional content.
                 </p>
-                <a href="javascript:void(0);" className="btn btn-primary">
+                <Link to="#" className="btn btn-primary">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card body --> */}
             </div>
@@ -52,18 +51,12 @@ const Card = () => {
                 </li>
               </ul>
               <div className="card-body">
-                <a
-                  href="javascript:void(0);"
-                  className="card-link text-primary"
-                >
+                <Link to="#" className="card-link text-primary">
                   Card link
-                </a>
-                <a
-                  href="javascript:void(0);"
-                  className="card-link text-primary"
-                >
+                </Link>
+                <Link to="#" className="card-link text-primary">
                   Another link
-                </a>
+                </Link>
               </div>
             </div>
             {/* <!-- end card --> */}
@@ -82,9 +75,9 @@ const Card = () => {
                   the bulk of the card's content. With supporting text below as
                   a natural lead-in to additional content.
                 </p>
-                <a href="javascript:void(0);" className="btn btn-primary">
+                <Link to="#" className="btn btn-primary">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card body --> */}
             </div>
@@ -105,18 +98,12 @@ const Card = () => {
                 <p className="card-text text-muted">
                   Some quick example text to build on the card title.
                 </p>
-                <a
-                  href="javascript:void(0);"
-                  className="card-link text-primary"
-                >
+                <Link to="#" className="card-link text-primary">
                   Card link
-                </a>
-                <a
-                  href="javascript:void(0);"
-                  className="card-link text-primary"
-                >
+                </Link>
+                <Link to="#" className="card-link text-primary">
                   Another link
-                </a>
+                </Link>
               </div>
               {/* <!-- end card body --> */}
             </div>
@@ -148,12 +135,11 @@ const Card = () => {
                 &lt;p className=&quot;card-text text-muted&quot;&gt; Some quick
                 example text to build on the card title and make up the bulk of
                 the card's content. With supporting text below as a natural
-                lead-in to additional content. &lt;/p&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!-- end
-                card body --&gt; &lt;/div&gt; &lt;!-- end card --&gt; &lt;div
-                className=&quot;card mb-3&quot;&gt; &lt;img
-                className=&quot;card-img-top img-fluid&quot;
+                lead-in to additional content. &lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-primary&quot;&gt;Button&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card body --&gt; &lt;/div&gt; &lt;!--
+                end card --&gt; &lt;div className=&quot;card mb-3&quot;&gt;
+                &lt;img className=&quot;card-img-top img-fluid&quot;
                 src=&quot;assets/images/small/img-2.jpg&quot;
                 alt=&quot;img-2&quot;&gt; &lt;div
                 className=&quot;card-body&quot;&gt; &lt;h5
@@ -164,10 +150,9 @@ const Card = () => {
                 list-group-flush text-muted&quot;&gt; &lt;li
                 className=&quot;list-group-item text-muted&quot;&gt;Dapibus ac
                 facilisis in&lt;/li&gt; &lt;/ul&gt; &lt;div
-                className=&quot;card-body&quot;&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;card-link
-                text-primary&quot;&gt;Card link&lt;/a&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;card-link
+                className=&quot;card-body&quot;&gt; &lt;a to=&quot;#&quot;
+                className=&quot;card-link text-primary&quot;&gt;Card
+                link&lt;/a&gt; &lt;a to=&quot;#&quot; className=&quot;card-link
                 text-primary&quot;&gt;Another link&lt;/a&gt; &lt;/div&gt;
                 &lt;/div&gt; &lt;!-- end card --&gt; &lt;div
                 className=&quot;card mb-3 mb-xl-0&quot;&gt; &lt;img
@@ -178,25 +163,24 @@ const Card = () => {
                 className=&quot;card-text text-muted&quot;&gt; Some quick
                 example text to build on the card title and make up the bulk of
                 the card's content. With supporting text below as a natural
-                lead-in to additional content. &lt;/p&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!-- end
-                card body --&gt; &lt;/div&gt; &lt;!-- end card --&gt; &lt;div
-                className=&quot;card mb-3 mb-xl-0&quot;&gt; &lt;div
-                className=&quot;card-body&quot;&gt; &lt;h5
-                className=&quot;card-title mb-0&quot;&gt;Card title&lt;/h5&gt;
-                &lt;/div&gt; &lt;img className=&quot;img-fluid&quot;
+                lead-in to additional content. &lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-primary&quot;&gt;Button&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card body --&gt; &lt;/div&gt; &lt;!--
+                end card --&gt; &lt;div className=&quot;card mb-3
+                mb-xl-0&quot;&gt; &lt;div className=&quot;card-body&quot;&gt;
+                &lt;h5 className=&quot;card-title mb-0&quot;&gt;Card
+                title&lt;/h5&gt; &lt;/div&gt; &lt;img
+                className=&quot;img-fluid&quot;
                 src=&quot;assets/images/small/img-5.jpg&quot;
                 alt=&quot;img-5&quot;&gt; &lt;div
                 className=&quot;card-body&quot;&gt; &lt;p
                 className=&quot;card-text text-muted&quot;&gt;Some quick example
                 text to build on the card title.&lt;/p&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;card-link
-                text-primary&quot;&gt;Card link&lt;/a&gt; &lt;a
-                href=&quot;javascript:void(0);&quot; className=&quot;card-link
-                text-primary&quot;&gt;Another link&lt;/a&gt; &lt;/div&gt;
-                &lt;!-- end card body --&gt; &lt;/div&gt; &lt;!-- end card
-                --&gt;
+                to=&quot;#&quot; className=&quot;card-link
+                text-primary&quot;&gt;Card link&lt;/a&gt; &lt;a to=&quot;#&quot;
+                className=&quot;card-link text-primary&quot;&gt;Another
+                link&lt;/a&gt; &lt;/div&gt; &lt;!-- end card body --&gt;
+                &lt;/div&gt; &lt;!-- end card --&gt;
               </code>
             </pre>
           </div>
@@ -209,9 +193,9 @@ const Card = () => {
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
-              <a href="javascript: void(0);" className="btn btn-primary">
+              <Link to="#" className="btn btn-primary">
                 Go somewhere
-              </a>
+              </Link>
             </div>
             {/* <!-- end card--> */}
           </div>
@@ -222,9 +206,9 @@ const Card = () => {
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
-              <a href="javascript: void(0);" className="btn btn-primary">
+              <Link to="#" className="btn btn-primary">
                 Go somewhere
-              </a>
+              </Link>
             </div>
             {/* <!-- end card--> */}
           </div>
@@ -249,17 +233,15 @@ const Card = () => {
                 className=&quot;card-title mb-1&quot;&gt;Special title
                 treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Go somewhere&lt;/a&gt; &lt;/div&gt; &lt;!--
-                end card--&gt; &lt;div className=&quot;card card-body&quot;&gt;
-                &lt;h5 className=&quot;card-title mb-1&quot;&gt;Special title
-                treatment&lt;/h5&gt; &lt;p
+                consectetur adipiscing elit.&lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card--&gt; &lt;div className=&quot;card
+                card-body&quot;&gt; &lt;h5 className=&quot;card-title
+                mb-1&quot;&gt;Special title treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Go somewhere&lt;/a&gt; &lt;/div&gt; &lt;!--
-                end card--&gt;
+                consectetur adipiscing elit.&lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card--&gt;
               </code>
             </pre>
           </div>
@@ -274,9 +256,9 @@ const Card = () => {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a href="javascript: void(0);" className="btn btn-primary">
+                <Link to="#" className="btn btn-primary">
                   Go somewhere
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body--> */}
             </div>
@@ -306,9 +288,9 @@ const Card = () => {
             <div className="card">
               <div className="card-header">Featured</div>
               <div className="card-body">
-                <a href="javascript: void(0);" className="btn btn-primary">
+                <Link to="#" className="btn btn-primary">
                   Go somewhere
-                </a>
+                </Link>
               </div>
               <div className="card-footer text-muted">2 days ago</div>
             </div>
@@ -337,11 +319,10 @@ const Card = () => {
                 className=&quot;card-title mb-1&quot;&gt;Special title
                 treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Go somewhere&lt;/a&gt; &lt;/div&gt; &lt;!--
-                end card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt; &lt;div
-                className=&quot;card&quot;&gt; &lt;div
+                consectetur adipiscing elit.&lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!--
+                end card--&gt; &lt;div className=&quot;card&quot;&gt; &lt;div
                 className=&quot;card-header&quot;&gt;Quote&lt;/div&gt; &lt;div
                 className=&quot;card-body&quot;&gt; &lt;blockquote&gt;
                 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -352,8 +333,8 @@ const Card = () => {
                 end card--&gt; &lt;div className=&quot;card&quot;&gt; &lt;div
                 className=&quot;card-header&quot;&gt;Featured&lt;/div&gt;
                 &lt;div className=&quot;card-body&quot;&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-primary&quot;&gt;Go somewhere&lt;/a&gt; &lt;/div&gt; &lt;div
+                to=&quot;#&quot; className=&quot;btn btn-primary&quot;&gt;Go
+                somewhere&lt;/a&gt; &lt;/div&gt; &lt;div
                 className=&quot;card-footer text-muted&quot;&gt;2 days
                 ago&lt;/div&gt; &lt;/div&gt; &lt;!-- end card--&gt;
               </code>
@@ -378,9 +359,9 @@ const Card = () => {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a href="javascript: void(0);" className="btn btn-light btn-sm">
+                <Link to="#" className="btn btn-light btn-sm">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body--> */}
             </div>
@@ -508,18 +489,18 @@ const Card = () => {
                 className=&quot;card-title text-white mb-2&quot;&gt;Special
                 title treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-light btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!--
-                end card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt; &lt;div
-                className=&quot;card bg-secondary text-white&quot;&gt; &lt;div
-                className=&quot;card-body&quot;&gt; &lt;blockquote&gt;
-                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Integer posuere erat a ante.&lt;/p&gt;
-                &lt;footer&gt;Someone famous in &lt;cite title=&quot;Source
-                Title&quot;&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
-                &lt;/blockquote&gt; &lt;/div&gt; &lt;!-- end card-body--&gt;
-                &lt;/div&gt; &lt;!-- end card--&gt; &lt;div className=&quot;card
+                consectetur adipiscing elit.&lt;/p&gt; &lt;a to=&quot;#&quot;
+                className=&quot;btn btn-light btn-sm&quot;&gt;Button&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!--
+                end card--&gt; &lt;div className=&quot;card bg-secondary
+                text-white&quot;&gt; &lt;div className=&quot;card-body&quot;&gt;
+                &lt;blockquote&gt; &lt;p&gt;Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Integer posuere erat a
+                ante.&lt;/p&gt; &lt;footer&gt;Someone famous in &lt;cite
+                title=&quot;Source Title&quot;&gt;Source
+                Title&lt;/cite&gt;&lt;/footer&gt; &lt;/blockquote&gt;
+                &lt;/div&gt; &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!--
+                end card--&gt; &lt;div className=&quot;card
                 text-bg-success&quot;&gt; &lt;div
                 className=&quot;card-body&quot;&gt; &lt;blockquote&gt;
                 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -576,12 +557,9 @@ const Card = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a
-                  href="javascript: void(0);"
-                  className="btn btn-primary btn-sm"
-                >
+                <Link to="#" className="btn btn-primary btn-sm">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body--> */}
             </div>
@@ -597,12 +575,9 @@ const Card = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a
-                  href="javascript: void(0);"
-                  className="btn btn-secondary btn-sm"
-                >
+                <Link to="#" className="btn btn-secondary btn-sm">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body--> */}
             </div>
@@ -617,15 +592,12 @@ const Card = () => {
                   Special title treatment
                 </h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  With supporting text below as Link natural lead-in to
+                  additional content.
                 </p>
-                <a
-                  href="javascript: void(0);"
-                  className="btn btn-success btn-sm"
-                >
+                <Link to="#" className="btn btn-success btn-sm">
                   Button
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body--> */}
             </div>
@@ -654,27 +626,27 @@ const Card = () => {
                 title treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;With supporting text below as
                 a natural lead-in to additional content.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-primary btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt;
-                &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt;
-                &lt;div className=&quot;card border-secondary border&quot;&gt;
-                &lt;div className=&quot;card-body&quot;&gt; &lt;h5
+                to=&quot;#&quot; className=&quot;btn btn-primary
+                btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!-- end
+                card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt; &lt;div
+                className=&quot;card border-secondary border&quot;&gt; &lt;div
+                className=&quot;card-body&quot;&gt; &lt;h5
                 className=&quot;card-title mb-2&quot;&gt;Special title
                 treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;With supporting text below as
                 a natural lead-in to additional content.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-secondary btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt;
-                &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt;
-                &lt;div className=&quot;card border-success border&quot;&gt;
-                &lt;div className=&quot;card-body&quot;&gt; &lt;h5
+                to=&quot;#&quot; className=&quot;btn btn-secondary
+                btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!-- end
+                card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt; &lt;div
+                className=&quot;card border-success border&quot;&gt; &lt;div
+                className=&quot;card-body&quot;&gt; &lt;h5
                 className=&quot;card-title mb-2 text-success&quot;&gt;Special
                 title treatment&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt;With supporting text below as
                 a natural lead-in to additional content.&lt;/p&gt; &lt;a
-                href=&quot;javascript: void(0);&quot; className=&quot;btn
-                btn-success btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt;
-                &lt;!-- end card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt;
+                to=&quot;#&quot; className=&quot;btn btn-success
+                btn-sm&quot;&gt;Button&lt;/a&gt; &lt;/div&gt; &lt;!-- end
+                card-body--&gt; &lt;/div&gt; &lt;!-- end card--&gt;
               </code>
             </pre>
           </div>
@@ -831,12 +803,9 @@ const Card = () => {
               />
               <div className="card-body">
                 <h5 className="card-title mb-2">Card with stretched link</h5>
-                <a
-                  href="javascript:void(0);"
-                  className="btn btn-primary mt-2 stretched-link"
-                >
+                <Link to="#" className="btn btn-primary mt-2 stretched-link">
                   Go somewhere
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body --> */}
             </div>
@@ -852,12 +821,9 @@ const Card = () => {
               />
               <div className="card-body">
                 <h5 className="card-title mb-2">
-                  <a
-                    href="javascript:void(0);"
-                    className="text-primary stretched-link"
-                  >
+                  <Link to="#" className="text-primary stretched-link">
                     Card with stretched link
-                  </a>
+                  </Link>
                 </h5>
                 <p className="card-text">
                   Some quick example text to build on the card up the bulk of
@@ -878,12 +844,9 @@ const Card = () => {
               />
               <div className="card-body">
                 <h5 className="card-title mb-2">Card with stretched link</h5>
-                <a
-                  href="javascript:void(0);"
-                  className="btn btn-primary mt-2 stretched-link"
-                >
+                <Link to="#" className="btn btn-primary mt-2 stretched-link">
                   Go somewhere
-                </a>
+                </Link>
               </div>
               {/* <!-- end card-body --> */}
             </div>
@@ -899,9 +862,9 @@ const Card = () => {
               />
               <div className="card-body">
                 <h5 className="card-title mb-2">
-                  <a href="javascript:void(0);" className="stretched-link">
+                  <Link to="#" className="stretched-link">
                     Card with stretched link
-                  </a>
+                  </Link>
                 </h5>
                 <p className="card-text">
                   Some quick example text to build on the card up the bulk of
@@ -934,16 +897,14 @@ const Card = () => {
                 className=&quot;card-img-top&quot; alt=&quot;img-1&quot;&gt;
                 &lt;div className=&quot;card-body&quot;&gt; &lt;h5
                 className=&quot;card-title mb-2&quot;&gt;Card with stretched
-                link&lt;/h5&gt; &lt;a href=&quot;javascript:void(0);&quot;
-                className=&quot;btn btn-primary mt-2 stretched-link&quot;&gt;Go
-                somewhere&lt;/a&gt; &lt;/div&gt; &lt;!-- end card-body --&gt;
-                &lt;/div&gt; &lt;!-- end card --&gt; &lt;div
-                className=&quot;card&quot;&gt; &lt;img
+                link&lt;/h5&gt; &lt;a to=&quot;#&quot; className=&quot;btn
+                btn-primary mt-2 stretched-link&quot;&gt;Go somewhere&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card-body --&gt; &lt;/div&gt; &lt;!--
+                end card --&gt; &lt;div className=&quot;card&quot;&gt; &lt;img
                 src=&quot;assets/images/small/img-2.jpg&quot;
                 className=&quot;card-img-top&quot; alt=&quot;img-2&quot;&gt;
                 &lt;div className=&quot;card-body&quot;&gt; &lt;h5
-                className=&quot;card-title mb-2&quot;&gt;&lt;a
-                href=&quot;javascript:void(0);&quot;
+                className=&quot;card-title mb-2&quot;&gt;&lt;a to=&quot;#&quot;
                 className=&quot;text-primary stretched-link&quot;&gt;Card with
                 stretched link&lt;/a&gt;&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt; Some quick example text to
@@ -954,16 +915,14 @@ const Card = () => {
                 className=&quot;card-img-top&quot; alt=&quot;img-3&quot;&gt;
                 &lt;div className=&quot;card-body&quot;&gt; &lt;h5
                 className=&quot;card-title mb-2&quot;&gt;Card with stretched
-                link&lt;/h5&gt; &lt;a href=&quot;javascript:void(0);&quot;
-                className=&quot;btn btn-primary mt-2 stretched-link&quot;&gt;Go
-                somewhere&lt;/a&gt; &lt;/div&gt; &lt;!-- end card-body --&gt;
-                &lt;/div&gt; &lt;!-- end card --&gt; &lt;div
-                className=&quot;card&quot;&gt; &lt;img
+                link&lt;/h5&gt; &lt;a to=&quot;#&quot; className=&quot;btn
+                btn-primary mt-2 stretched-link&quot;&gt;Go somewhere&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- end card-body --&gt; &lt;/div&gt; &lt;!--
+                end card --&gt; &lt;div className=&quot;card&quot;&gt; &lt;img
                 src=&quot;assets/images/small/img-4.jpg&quot;
                 className=&quot;card-img-top&quot; alt=&quot;img-4&quot;&gt;
                 &lt;div className=&quot;card-body&quot;&gt; &lt;h5
-                className=&quot;card-title mb-2&quot;&gt;&lt;a
-                href=&quot;javascript:void(0);&quot;
+                className=&quot;card-title mb-2&quot;&gt;&lt;a to=&quot;#&quot;
                 className=&quot;stretched-link&quot;&gt;Card with stretched
                 link&lt;/a&gt;&lt;/h5&gt; &lt;p
                 className=&quot;card-text&quot;&gt; Some quick example text to

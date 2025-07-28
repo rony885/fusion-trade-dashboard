@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const AddProduct = () => {
   return (
@@ -144,14 +145,14 @@ const AddProduct = () => {
               <div className="card-footer bg-light-subtle">
                 <div className="row g-2">
                   <div className="col-lg-6">
-                    <a href="#!" className="btn btn-outline-secondary w-100">
+                    <Link to="#!" className="btn btn-outline-secondary w-100">
                       Create Product
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-6">
-                    <a href="#!" className="btn btn-primary w-100">
+                    <Link to="#!" className="btn btn-primary w-100">
                       Cancel
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -216,7 +217,10 @@ const AddProduct = () => {
                   </div>
                   <div className="col-lg-6">
                     <form>
-                      <label htmlFor="product-categories" className="form-label">
+                      <label
+                        htmlFor="product-categories"
+                        className="form-label"
+                      >
                         Product Categories
                       </label>
                       <select
@@ -227,7 +231,7 @@ const AddProduct = () => {
                         data-placeholder="Select Categories"
                         name="choices-single-groups"
                       >
-                        <option value="">Choose a categories</option>
+                        <option value="">Choose Link categories</option>
                         <option value="Fashion">Fashion</option>
                         <option value="Electronics">Electronics</option>
                         <option value="Footwear">Footwear</option>
@@ -620,14 +624,14 @@ const AddProduct = () => {
             <div className="p-3 bg-light mb-3 rounded">
               <div className="row justify-content-end g-2">
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-outline-secondary w-100">
+                  <Link to="#!" className="btn btn-outline-secondary w-100">
                     Create Product
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-primary w-100">
+                  <Link to="#!" className="btn btn-primary w-100">
                     Cancel
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

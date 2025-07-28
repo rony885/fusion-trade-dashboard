@@ -17278,9 +17278,6 @@ html[data-menu-size="sm-hover"]
   transition: all 0.3s ease-in-out;
 }
 
-
-
-
 html[data-menu-size="sm-hover"]
   .main-nav
   .simplebar-track.simplebar-horizontal {

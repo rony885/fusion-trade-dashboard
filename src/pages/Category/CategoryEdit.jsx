@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const CategoryEdit = () => {
   return (
@@ -11,7 +12,7 @@ const CategoryEdit = () => {
               <div className="card-body">
                 <div className="bg-light text-center rounded bg-light">
                   <img
-                    src="assets/images/product/p-1.png"
+                    src="/assets/images/product/p-1.png"
                     alt=""
                     className="avatar-xxl"
                   />
@@ -37,14 +38,14 @@ const CategoryEdit = () => {
               <div className="card-footer border-top">
                 <div className="row g-2">
                   <div className="col-lg-6">
-                    <a href="#!" className="btn btn-outline-secondary w-100">
+                    <Link to="#!" className="btn btn-outline-secondary w-100">
                       Create Category
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-6">
-                    <a href="#!" className="btn btn-primary w-100">
+                    <Link to="#!" className="btn btn-primary w-100">
                       Cancel
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -171,8 +172,8 @@ const CategoryEdit = () => {
                       >
                         Aurora Fashion has once again captivated fashion
                         enthusiasts with its latest collection, seamlessly
-                        blending elegance with comfort in a range of exquisite
-                        designs.
+                        blending elegance with comfort in Link range of
+                        exquisite designs.
                       </textarea>
                     </div>
                   </div>
@@ -236,14 +237,14 @@ const CategoryEdit = () => {
             <div className="p-3 bg-light mb-3 rounded">
               <div className="row justify-content-end g-2">
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-outline-secondary w-100">
+                  <Link to="#!" className="btn btn-outline-secondary w-100">
                     Save Change
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-2">
-                  <a href="#!" className="btn btn-primary w-100">
+                  <Link to="#!" className="btn btn-primary w-100">
                     Cancel
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

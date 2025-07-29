@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const SellerDetails = () => {
   return (
@@ -15,24 +14,24 @@ const SellerDetails = () => {
                   <div className="col-lg-2 text-lg-center">
                     <div className="bg-body d-flex align-items-center justify-content-center rounded py-4">
                       <img
-                        src="assets/images/seller/zara.svg"
+                        src="/assets/images/seller/zara.svg"
                         alt=""
                         className="avatar-xxl flex-shrink-0"
                       />
                     </div>
                     <div className="mt-3">
-                      <a href="#!" className="btn btn-primary w-100">
+                      <Link to="#!" className="btn btn-primary w-100">
                         View Stock Detail
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-3 border-end">
                     <div className="">
                       <h4 className="mb-1">ZARA International</h4>
                       <p className="mb-1">(Most Selling Fashion Brand)</p>
-                      <a href="#!" className="link-primary fs-16 fw-medium">
+                      <Link to="#!" className="link-primary fs-16 fw-medium">
                         www.larkon.co
-                      </a>
+                      </Link>
                       <div className="d-flex align-items-center justify-content-satrt gap-2 mt-2 mb-1">
                         <ul className="d-flex text-warning m-0 fs-20 list-unstyled">
                           <li>
@@ -74,7 +73,9 @@ const SellerDetails = () => {
                               className="fs-20 text-primary"
                             ></iconify-icon>
                           </div>
-                          <p className="mb-0 fs-15">zarafashionworld@dayrep.com</p>
+                          <p className="mb-0 fs-15">
+                            zarafashionworld@dayrep.com
+                          </p>
                         </div>
                         <div className="d-flex align-items-center gap-2">
                           <div className="avatar-sm bg-light d-flex align-items-center justify-content-center rounded">
@@ -170,7 +171,9 @@ const SellerDetails = () => {
                         ></div>
                       </div>
                       <div className="d-flex align-items-center justify-content-between mt-3 mb-1">
-                        <p className="mb-0 fs-15 fw-medium text-dark">Foot Wares</p>
+                        <p className="mb-0 fs-15 fw-medium text-dark">
+                          Foot Wares
+                        </p>
                         <div>
                           <p className="mb-0 fs-15 fw-medium text-dark">
                             $51k
@@ -200,56 +203,56 @@ const SellerDetails = () => {
                 <h4 className="card-title mb-2">Social Media :</h4>
                 <ul className="list-inline d-flex gap-1 mb-0 mt-3 align-items-center">
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-primary avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-danger avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-info avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-success avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-whatsapp"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-warning avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bx-envelope"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <h4 className="card-title mt-3 mb-2">Our Story :</h4>
                 <p>
                   At ZARA, we believe that fashion is more than just
-                  clothing—it's an expression of individuality and a celebration
-                  of diversity. Founded in 2003, our journey began with a simple
-                  yet powerful vision: to create high-quality, stylish, and
-                  comfortable apparel that resonates with people from all walks
-                  of life.
+                  clothing—it's an expression of individuality and Link
+                  celebration of diversity. Founded in 2003, our journey began
+                  with Link simple yet powerful vision: to create high-quality,
+                  stylish, and comfortable apparel that resonates with people
+                  from all walks of life.
                 </p>
 
                 <h4 className="card-title my-2">Our Mission :</h4>
@@ -257,8 +260,8 @@ const SellerDetails = () => {
                   Our mission is to redefine fashion by merging timeless
                   elegance with contemporary design. We strive to offer clothing
                   that not only looks good but also feels good, making everyday
-                  wear an enjoyable experience. At the heart of our brand is a
-                  commitment to quality, sustainability, and customer
+                  wear an enjoyable experience. At the heart of our brand is
+                  Link commitment to quality, sustainability, and customer
                   satisfaction.
                 </p>
 
@@ -436,9 +439,9 @@ const SellerDetails = () => {
                     </div>
                   </div>
                 </div>
-                <a href="#!" className="text-primary mt-2 fw-medium">
+                <Link to="#!" className="text-primary mt-2 fw-medium">
                   How do we calculate ratings ?
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -452,26 +455,26 @@ const SellerDetails = () => {
                   <h4 className="card-title">Latest Added Product</h4>
                 </div>
                 <div className="dropdown">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="dropdown-toggle btn btn-sm btn-outline-light rounded"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     This Month
-                  </a>
+                  </Link>
                   <div className="dropdown-menu dropdown-menu-end">
-                    <a href="#!" className="dropdown-item">
+                    <Link to="#!" className="dropdown-item">
                       Download
-                    </a>
+                    </Link>
 
-                    <a href="#!" className="dropdown-item">
+                    <Link to="#!" className="dropdown-item">
                       Export
-                    </a>
+                    </Link>
 
-                    <a href="#!" className="dropdown-item">
+                    <Link to="#!" className="dropdown-item">
                       Import
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -525,9 +528,12 @@ const SellerDetails = () => {
                               />
                             </div>
                             <div>
-                              <a href="#!" className="text-dark fw-medium fs-15">
+                              <Link
+                                to="#!"
+                                className="text-dark fw-medium fs-15"
+                              >
                                 Black T-shirt
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Variants : </span> 4
                               </p>
@@ -569,9 +575,12 @@ const SellerDetails = () => {
                               />
                             </div>
                             <div>
-                              <a href="#!" className="text-dark fw-medium fs-15">
+                              <Link
+                                to="#!"
+                                className="text-dark fw-medium fs-15"
+                              >
                                 Olive Green Leather Bag
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Variants : </span> 2
                               </p>
@@ -613,9 +622,12 @@ const SellerDetails = () => {
                               />
                             </div>
                             <div>
-                              <a href="#!" className="text-dark fw-medium fs-15">
+                              <Link
+                                to="#!"
+                                className="text-dark fw-medium fs-15"
+                              >
                                 Women Golden Dress
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Variants : </span> 5
                               </p>
@@ -657,9 +669,12 @@ const SellerDetails = () => {
                               />
                             </div>
                             <div>
-                              <a href="#!" className="text-dark fw-medium fs-15">
+                              <Link
+                                to="#!"
+                                className="text-dark fw-medium fs-15"
+                              >
                                 Gray Cap For Men
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Variants : </span> 3
                               </p>
@@ -700,9 +715,12 @@ const SellerDetails = () => {
                               />
                             </div>
                             <div>
-                              <a href="#!" className="text-dark fw-medium fs-15">
+                              <Link
+                                to="#!"
+                                className="text-dark fw-medium fs-15"
+                              >
                                 Dark Green Cargo Pent
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Variants : </span> 6
                               </p>
@@ -742,28 +760,35 @@ const SellerDetails = () => {
                     </div>
                     <div className="ms-auto">
                       <div className="dropdown">
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           className="dropdown-toggle arrow-none card-drop p-0"
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
                           <i className="bx bx-dots-vertical-rounded text-white"></i>
-                        </a>
+                        </Link>
                         <div className="dropdown-menu dropdown-menu-end">
-                          <a href="javascript:void(0);" className="dropdown-item">
+                          <Link
+                            to="#"
+                            className="dropdown-item"
+                          >
                             Download
-                          </a>
-                          <a href="javascript:void(0);" className="dropdown-item">
+                          </Link>
+                          <Link
+                            to="#"
+                            className="dropdown-item"
+                          >
                             Share
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </div>
                   <h3 className="mt-4 text-warning fw-semibold">$5,324,000</h3>
                   <p className="mb-0 text-white-50">
-                    Accounting revenue refers to the income earned by a company
+                    Accounting revenue refers to the income earned by Link
+                    company
                   </p>
                   <h5 className="text-white-50 mb-0 mt-2">
                     <span className="text-white">+870</span> Customers
@@ -973,9 +998,9 @@ const SellerDetails = () => {
                     </div>
                   </div>
                   <div className="card-footer border-top">
-                    <a href="#!" className="link-dark fw-medium">
+                    <Link to="#!" className="link-dark fw-medium">
                       View More <i className="bx bx-right-arrow-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -984,7 +1009,9 @@ const SellerDetails = () => {
                 <div className="card">
                   <div className="card-body">
                     <div className="text-center">
-                      <h5 className="card-title mb-0 text-dark fw-medium">Users</h5>
+                      <h5 className="card-title mb-0 text-dark fw-medium">
+                        Users
+                      </h5>
                       <div className="avatar-md bg-light bg-opacity-50 rounded mx-auto my-3">
                         <iconify-icon
                           icon="solar:user-plus-broken"
@@ -1008,9 +1035,9 @@ const SellerDetails = () => {
                     </div>
                   </div>
                   <div className="card-footer border-top">
-                    <a href="#!" className="link-dark fw-medium">
+                    <Link to="#!" className="link-dark fw-medium">
                       View More <i className="bx bx-right-arrow-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

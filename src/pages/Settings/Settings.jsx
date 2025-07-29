@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Settings = () => {
   return (
@@ -65,7 +66,9 @@ const Settings = () => {
                           <option defaultValue="">Default</option>
                           <option defaultValue="Dark">Dark</option>
                           <option defaultValue="Minimalist">Minimalist</option>
-                          <option defaultValue="High Contrast">High Contrast</option>
+                          <option defaultValue="High Contrast">
+                            High Contrast
+                          </option>
                         </select>
                       </div>
                     </form>
@@ -84,7 +87,9 @@ const Settings = () => {
                           data-placeholder="Select Layout"
                         >
                           <option defaultValue="">Default</option>
-                          <option defaultValue="Electronics">Electronics</option>
+                          <option defaultValue="Electronics">
+                            Electronics
+                          </option>
                           <option defaultValue="Fashion">Fashion</option>
                           <option defaultValue="Dining">Dining</option>
                           <option defaultValue="Interior">Interior</option>
@@ -231,7 +236,9 @@ const Settings = () => {
                           <option defaultValue="">Choose a city</option>
                           <optgroup label="UK">
                             <option defaultValue="London">London</option>
-                            <option defaultValue="Manchester">Manchester</option>
+                            <option defaultValue="Manchester">
+                              Manchester
+                            </option>
                             <option defaultValue="Liverpool">Liverpool</option>
                           </optgroup>
                           <optgroup label="FR">
@@ -282,7 +289,9 @@ const Settings = () => {
                         <optgroup label="">
                           <option defaultValue="">United Kingdom</option>
                           <option defaultValue="Fran">France</option>
-                          <option defaultValue="Netherlands">Netherlands</option>
+                          <option defaultValue="Netherlands">
+                            Netherlands
+                          </option>
                           <option defaultValue="U.S.A">U.S.A</option>
                           <option defaultValue="Denmark">Denmark</option>
                           <option defaultValue="Canada">Canada</option>
@@ -320,7 +329,10 @@ const Settings = () => {
                   <div className="col-lg-6">
                     <form>
                       <div className="mb-3">
-                        <label htmlFor="choices-country1" className="form-label">
+                        <label
+                          htmlFor="choices-country1"
+                          className="form-label"
+                        >
                           Country
                         </label>
                         <select
@@ -335,7 +347,9 @@ const Settings = () => {
                           <optgroup label="">
                             <option defaultValue="">United Kingdom</option>
                             <option defaultValue="Fran">France</option>
-                            <option defaultValue="Netherlands">Netherlands</option>
+                            <option defaultValue="Netherlands">
+                              Netherlands
+                            </option>
                             <option defaultValue="U.S.A">U.S.A</option>
                             <option defaultValue="Denmark">Denmark</option>
                             <option defaultValue="Canada">Canada</option>
@@ -354,7 +368,10 @@ const Settings = () => {
                   <div className="col-lg-6">
                     <form>
                       <div className="mb-3">
-                        <label htmlFor="choices-language" className="form-label">
+                        <label
+                          htmlFor="choices-language"
+                          className="form-label"
+                        >
                           Language
                         </label>
                         <select
@@ -386,7 +403,10 @@ const Settings = () => {
                   <div className="col-lg-6">
                     <form>
                       <div className="mb-3">
-                        <label htmlFor="choices-currency" className="form-label">
+                        <label
+                          htmlFor="choices-currency"
+                          className="form-label"
+                        >
                           Currency
                         </label>
                         <select
@@ -400,13 +420,19 @@ const Settings = () => {
                           <option defaultValue="">Us Dollar</option>
                           <optgroup label="">
                             <option defaultValue="">Pound</option>
-                            <option defaultValue="Indian Rupee">Indian Rupee</option>
+                            <option defaultValue="Indian Rupee">
+                              Indian Rupee
+                            </option>
                             <option defaultValue="Euro">Euro</option>
                             <option defaultValue="Australian Dollar">
                               Australian Dollar
                             </option>
-                            <option defaultValue="Japanese Yen">Japanese Yen</option>
-                            <option defaultValue="Korean Won">Korean Won</option>
+                            <option defaultValue="Japanese Yen">
+                              Japanese Yen
+                            </option>
+                            <option defaultValue="Korean Won">
+                              Korean Won
+                            </option>
                           </optgroup>
                         </select>
                       </div>
@@ -488,7 +514,10 @@ const Settings = () => {
                       id="flexRadioDefault1"
                       defaultChecked
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault1">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault1"
+                    >
                       Yes
                     </label>
                   </div>
@@ -499,7 +528,10 @@ const Settings = () => {
                       name="flexRadioDefault"
                       id="flexRadioDefault2"
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault2">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault2"
+                    >
                       No
                     </label>
                   </div>
@@ -542,7 +574,10 @@ const Settings = () => {
                       id="flexRadioDefault3"
                       defaultChecked
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault3">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault3"
+                    >
                       Yes
                     </label>
                   </div>
@@ -553,7 +588,10 @@ const Settings = () => {
                       name="flexRadioDefault2"
                       id="flexRadioDefault4"
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault4">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault4"
+                    >
                       No
                     </label>
                   </div>
@@ -567,7 +605,10 @@ const Settings = () => {
                       name="flexRadioDefault3"
                       id="flexRadioDefault5"
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault5">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault5"
+                    >
                       Yes
                     </label>
                   </div>
@@ -579,7 +620,10 @@ const Settings = () => {
                       id="flexRadioDefault6"
                       defaultChecked
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault6">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault6"
+                    >
                       No
                     </label>
                   </div>
@@ -652,7 +696,10 @@ const Settings = () => {
                       id="flexRadioDefault7"
                       defaultChecked
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault7">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault7"
+                    >
                       Yes
                     </label>
                   </div>
@@ -663,7 +710,10 @@ const Settings = () => {
                       name="flexRadioDefault4"
                       id="flexRadioDefault8"
                     />
-                    <label className="form-check-label" htmlFor="flexRadioDefault8">
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault8"
+                    >
                       No
                     </label>
                   </div>
@@ -896,12 +946,12 @@ const Settings = () => {
         </div>
 
         <div className="text-end">
-          <a href="#!" className="btn btn-danger">
+          <Link to="#!" className="btn btn-danger">
             Cancel
-          </a>
-          <a href="#!" className="btn btn-success">
+          </Link>
+          <Link to="#!" className="btn btn-success">
             Save Change
-          </a>
+          </Link>
         </div>
       </div>
       <Footer />

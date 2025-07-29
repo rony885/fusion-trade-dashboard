@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const HelpCenter = () => {
   return (
@@ -472,9 +473,9 @@ const HelpCenter = () => {
                 </div>
               </div>
               <div className="modal-footer p-2">
-                <a href="#!" className="btn btn-primary">
+                <Link to="#!" className="btn btn-primary">
                   More Video
-                </a>
+                </Link>
               </div>
             </div>
           </div>

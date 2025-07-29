@@ -70,13 +70,14 @@ const RoleEdit = () => {
                           Manager
                         </option>
                         <option defaultValue="Product">Product</option>
-                        <option defaultValue="Data" select="true"
-                        >
+                        <option defaultValue="Data" select="true">
                           Data
                         </option>
                         <option defaultValue="Designer">Designer</option>
                         <option defaultValue="Supporter">Supporter</option>
-                        <option defaultValue="System Design">System Design</option>
+                        <option defaultValue="System Design">
+                          System Design
+                        </option>
                         <option defaultValue="QA">QA</option>
                       </select>
                     </div>

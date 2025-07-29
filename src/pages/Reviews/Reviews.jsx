@@ -44,14 +44,14 @@ const Reviews = () => {
               <div className="card-footer bg-primary position-relative mt-3">
                 <div className="position-absolute top-0 start-0 translate-middle-y ms-3">
                   <img
-                    src="assets/images/users/avatar-2.jpg"
+                    src="/assets/images/users/avatar-2.jpg"
                     alt=""
                     className="avatar-lg border border-light border-3 rounded-circle"
                   />
                 </div>
                 <div className="position-absolute top-0 end-0 translate-middle-y me-3">
                   <img
-                    src="assets/images/double.png"
+                    src="/assets/images/double.png"
                     alt=""
                     className="avatar-md"
                   />
@@ -98,14 +98,14 @@ const Reviews = () => {
               <div className="card-footer bg-primary position-relative mt-3">
                 <div className="position-absolute top-0 start-0 translate-middle-y ms-3">
                   <img
-                    src="assets/images/users/avatar-3.jpg"
+                    src="/assets/images/users/avatar-3.jpg"
                     alt=""
                     className="avatar-lg border border-light border-3 rounded-circle"
                   />
                 </div>
                 <div className="position-absolute top-0 end-0 translate-middle-y me-3">
                   <img
-                    src="assets/images/double.png"
+                    src="/assets/images/double.png"
                     alt=""
                     className="avatar-md"
                   />
@@ -155,14 +155,14 @@ const Reviews = () => {
               <div className="card-footer bg-primary position-relative mt-3">
                 <div className="position-absolute top-0 start-0 translate-middle-y ms-3">
                   <img
-                    src="assets/images/users/avatar-4.jpg"
+                    src="/assets/images/users/avatar-4.jpg"
                     alt=""
                     className="avatar-lg border border-light border-3 rounded-circle"
                   />
                 </div>
                 <div className="position-absolute top-0 end-0 translate-middle-y me-3">
                   <img
-                    src="assets/images/double.png"
+                    src="/assets/images/double.png"
                     alt=""
                     className="avatar-md"
                   />
@@ -212,14 +212,14 @@ const Reviews = () => {
               <div className="card-footer bg-primary position-relative mt-3">
                 <div className="position-absolute top-0 start-0 translate-middle-y ms-3">
                   <img
-                    src="assets/images/users/avatar-5.jpg"
+                    src="/assets/images/users/avatar-5.jpg"
                     alt=""
                     className="avatar-lg border border-light border-3 rounded-circle"
                   />
                 </div>
                 <div className="position-absolute top-0 end-0 translate-middle-y me-3">
                   <img
-                    src="assets/images/double.png"
+                    src="/assets/images/double.png"
                     alt=""
                     className="avatar-md"
                   />

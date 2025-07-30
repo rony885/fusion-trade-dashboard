@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Tabs = () => {
   return (
@@ -12,9 +13,9 @@ const Tabs = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Nav Tabs
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted mb-3">
                   Use the <code>.nav-tabs</code> class to generate a tabbed
@@ -22,8 +23,8 @@ const Tabs = () => {
                 </p>
                 <ul className="nav nav-tabs">
                   <li className="nav-item">
-                    <a
-                      href="#home"
+                    <Link
+                      to="#home"
                       data-bs-toggle="tab"
                       aria-expanded="false"
                       className="nav-link"
@@ -32,11 +33,11 @@ const Tabs = () => {
                         <i className="bx bx-home"></i>
                       </span>
                       <span className="d-none d-sm-block">Home</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
-                      href="#profile"
+                    <Link
+                      to="#profile"
                       data-bs-toggle="tab"
                       aria-expanded="true"
                       className="nav-link active"
@@ -45,11 +46,11 @@ const Tabs = () => {
                         <i className="bx bx-user"></i>
                       </span>
                       <span className="d-none d-sm-block">Profile</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
-                      href="#messages"
+                    <Link
+                      to="#messages"
                       data-bs-toggle="tab"
                       aria-expanded="false"
                       className="nav-link"
@@ -58,7 +59,7 @@ const Tabs = () => {
                         <i className="bx bx-envelope"></i>
                       </span>
                       <span className="d-none d-sm-block">Messages</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="tab-content text-muted">
@@ -208,9 +209,9 @@ const Tabs = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="static-backdrop">
                   Tabs Justified
-                  <a className="anchor-link" href="#static-backdrop">
+                  <Link className="anchor-link" to="#static-backdrop">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Using class <code>.nav-justified</code>, you can force your
@@ -220,8 +221,8 @@ const Tabs = () => {
                 <div className="mb-3">
                   <ul className="nav nav-tabs nav-justified">
                     <li className="nav-item">
-                      <a
-                        href="#homeTabsJustified"
+                      <Link
+                        to="#homeTabsJustified"
                         data-bs-toggle="tab"
                         aria-expanded="false"
                         className="nav-link"
@@ -230,11 +231,11 @@ const Tabs = () => {
                           <i className="bx bx-home"></i>
                         </span>
                         <span className="d-none d-sm-block">Home</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        href="#profileTabsJustified"
+                      <Link
+                        to="#profileTabsJustified"
                         data-bs-toggle="tab"
                         aria-expanded="true"
                         className="nav-link active"
@@ -243,11 +244,11 @@ const Tabs = () => {
                           <i className="bx bx-user"></i>
                         </span>
                         <span className="d-none d-sm-block">Profile</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        href="#messagesTabsJustified"
+                      <Link
+                        to="#messagesTabsJustified"
                         data-bs-toggle="tab"
                         aria-expanded="false"
                         className="nav-link"
@@ -256,7 +257,7 @@ const Tabs = () => {
                           <i className="bx bx-envelope"></i>
                         </span>
                         <span className="d-none d-sm-block">Messages</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="tab-content pt-2 text-muted">
@@ -416,20 +417,20 @@ const Tabs = () => {
                   id="scrolling-long-content"
                 >
                   Nav Pills
-                  <a className="anchor-link" href="#scrolling-long-content">
+                  <Link className="anchor-link" to="#scrolling-long-content">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
-                  Use the <code>.nav-pills</code> class to generate a pilled
+                  Use the <code>.nav-pills</code> class to generate Link pilled
                   interface.
                 </p>
 
                 <div className="mb-3">
                   <ul className="nav nav-pills">
                     <li className="nav-item">
-                      <a
-                        href="#homePill"
+                      <Link
+                        to="#homePill"
                         data-bs-toggle="tab"
                         aria-expanded="false"
                         className="nav-link"
@@ -438,11 +439,11 @@ const Tabs = () => {
                           <i className="bx bx-home"></i>
                         </span>
                         <span className="d-none d-sm-block">Home</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        href="#profilePill"
+                      <Link
+                        to="#profilePill"
                         data-bs-toggle="tab"
                         aria-expanded="true"
                         className="nav-link active"
@@ -451,11 +452,11 @@ const Tabs = () => {
                           <i className="bx bx-user"></i>
                         </span>
                         <span className="d-none d-sm-block">Profile</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
-                        href="#messagesPill"
+                      <Link
+                        to="#messagesPill"
                         data-bs-toggle="tab"
                         aria-expanded="false"
                         className="nav-link"
@@ -464,7 +465,7 @@ const Tabs = () => {
                           <i className="bx bx-envelope"></i>
                         </span>
                         <span className="d-none d-sm-block">Messages</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="tab-content pt-2 text-muted">
@@ -617,9 +618,9 @@ const Tabs = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="modal-position">
                   Pills Justified
-                  <a className="anchor-link" href="#modal-position">
+                  <Link className="anchor-link" to="#modal-position">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Using class <code>.nav-justified</code>, you can force your
@@ -630,8 +631,8 @@ const Tabs = () => {
                   <div className="d-flex flex-wrap gap-2">
                     <ul className="nav nav-pills nav-justified p-1">
                       <li className="nav-item">
-                        <a
-                          href="#homePillJustified"
+                        <Link
+                          to="#homePillJustified"
                           data-bs-toggle="tab"
                           aria-expanded="false"
                           className="nav-link"
@@ -640,11 +641,11 @@ const Tabs = () => {
                             <i className="bx bx-home"></i>
                           </span>
                           <span className="d-none d-sm-block">Home</span>
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a
-                          href="#profilePillJustified"
+                        <Link
+                          to="#profilePillJustified"
                           data-bs-toggle="tab"
                           aria-expanded="true"
                           className="nav-link active"
@@ -653,11 +654,11 @@ const Tabs = () => {
                             <i className="bx bx-user"></i>
                           </span>
                           <span className="d-none d-sm-block">Profile</span>
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a
-                          href="#messagesPillJustified"
+                        <Link
+                          to="#messagesPillJustified"
                           data-bs-toggle="tab"
                           aria-expanded="false"
                           className="nav-link"
@@ -666,7 +667,7 @@ const Tabs = () => {
                             <i className="bx bx-envelope"></i>
                           </span>
                           <span className="d-none d-sm-block">Messages</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <div className="tab-content pt-2 text-muted">
@@ -827,9 +828,9 @@ const Tabs = () => {
                   id="toggle-between-modals"
                 >
                   Tabs Vertical Left
-                  <a className="anchor-link" href="#toggle-between-modals">
+                  <Link className="anchor-link" to="#toggle-between-modals">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   You can stack your navigation by changing the flex item
@@ -845,39 +846,39 @@ const Tabs = () => {
                         role="tablist"
                         aria-orientation="vertical"
                       >
-                        <a
+                        <Link
                           className="nav-link active show"
                           id="vl-pills-home-tab"
                           data-bs-toggle="pill"
-                          href="#vl-pills-home"
+                          to="#vl-pills-home"
                           role="tab"
                           aria-controls="vl-pills-home"
                           aria-selected="true"
                         >
                           <span>Home</span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="nav-link"
                           id="vl-pills-profile-tab"
                           data-bs-toggle="pill"
-                          href="#vl-pills-profile"
+                          to="#vl-pills-profile"
                           role="tab"
                           aria-controls="vl-pills-profile"
                           aria-selected="false"
                         >
                           <span>Profile</span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="nav-link"
                           id="vl-pills-settings-tab"
                           data-bs-toggle="pill"
-                          href="#vl-pills-settings"
+                          to="#vl-pills-settings"
                           role="tab"
                           aria-controls="vl-pills-settings"
                           aria-selected="false"
                         >
                           <span>Settings</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
 

@@ -35,10 +35,7 @@ const SignUp = () => {
                   </p>
 
                   <div>
-                    <form
-                      action="https://techzaa.in/larkon/admin/index.html"
-                      className="authentication-form"
-                    >
+                    <form className="authentication-form">
                       <div className="mb-3">
                         <label className="form-label" htmlFor="example-name">
                           Name
@@ -116,10 +113,7 @@ const SignUp = () => {
 
                   <p className="mt-auto text-danger text-center">
                     I already have an account
-                    <Link
-                      to="/auth-signin"
-                      className="text-dark fw-bold ms-1"
-                    >
+                    <Link to="/auth-signin" className="text-dark fw-bold ms-1">
                       Sign In
                     </Link>
                   </p>

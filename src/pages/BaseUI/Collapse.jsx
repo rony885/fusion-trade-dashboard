@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Collapse = () => {
   return (
@@ -11,9 +12,9 @@ const Collapse = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Default Example
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Click the buttons below to show and hide another element via
@@ -41,16 +42,16 @@ const Collapse = () => {
 
                 <div className="mb-3">
                   <div className="hstack gap-2">
-                    <a
+                    <Link
                       className="btn btn-primary mb-2"
                       data-bs-toggle="collapse"
-                      href="#collapseExample"
+                      to="#collapseExample"
                       role="button"
                       aria-expanded="false"
                       aria-controls="collapseExample"
                     >
                       Link with href
-                    </a>
+                    </Link>
                     <button
                       className="btn btn-primary mb-2"
                       type="button"
@@ -119,9 +120,9 @@ const Collapse = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="horizontal">
                   Horizontal{" "}
-                  <a className="anchor-link" href="#horizontal">
+                  <Link className="anchor-link" to="#horizontal">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   The collapse plugin also supports horizontal collapsing. Add
@@ -200,9 +201,9 @@ const Collapse = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="multiple-targets">
                   Multiple Targets
-                  <a className="anchor-link" href="#multiple-targets">
+                  <Link className="anchor-link" to="#multiple-targets">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   A <code>&lt;button&gt;</code> or <code>&lt;a&gt;</code> can
@@ -216,16 +217,16 @@ const Collapse = () => {
                 </p>
                 <div className="mb-3">
                   <div className="hstack gap-2 mb-3">
-                    <a
+                    <Link
                       className="btn btn-primary"
                       data-bs-toggle="collapse"
-                      href="#multiCollapseExample1"
+                      to="#multiCollapseExample1"
                       role="button"
                       aria-expanded="false"
                       aria-controls="multiCollapseExample1"
                     >
                       Toggle first element
-                    </a>
+                    </Link>
                     <button
                       className="btn btn-primary"
                       type="button"
@@ -346,19 +347,19 @@ const Collapse = () => {
                 <div className="">
                   <ul className="nav bg-transparent flex-column">
                     <li className="nav-item">
-                      <a href="#default" className="nav-link">
+                      <Link to="#default" className="nav-link">
                         Default Example
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#horizontal" className="nav-link">
+                      <Link to="#horizontal" className="nav-link">
                         Horizontal Collapse
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#multiple-targets" className="nav-link">
+                      <Link to="#multiple-targets" className="nav-link">
                         Multiple Targets
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

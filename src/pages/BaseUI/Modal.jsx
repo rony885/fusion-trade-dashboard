@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Modal = () => {
   return (
@@ -13,9 +14,9 @@ const Modal = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Default Modals
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted font-14">
                   Toggle a working modal demo by clicking the button below. It
@@ -127,9 +128,9 @@ const Modal = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="static-backdrop">
                   Static Backdrop
-                  <a className="anchor-link" href="#static-backdrop">
+                  <Link className="anchor-link" to="#static-backdrop">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   When backdrop is set to static, the modal will not close when
@@ -251,9 +252,9 @@ const Modal = () => {
                   id="scrolling-long-content"
                 >
                   Scrolling Long Content
-                  <a className="anchor-link" href="#scrolling-long-content">
+                  <Link className="anchor-link" to="#scrolling-long-content">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   When modals become too long for the user&rsquo;s viewport or
